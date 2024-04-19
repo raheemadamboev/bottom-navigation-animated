@@ -4,6 +4,8 @@ compose = "2024.04.01"
 compose-activity = "1.9.0"
 compose-lifecycle = "2.7.0"
 core = "1.13.0"
+haze = "0.7.0"
+coil = "2.6.0"
 
 android = "8.3.2"
 kotlin = "1.9.23"
@@ -24,6 +26,8 @@ compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "compose-activity" }
 compose-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "compose-lifecycle" }
 core = { group = "androidx.core", name = "core-ktx", version.ref = "core" }
+haze = { group = "dev.chrisbanes.haze", name = "haze", version.ref = "haze" }
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
 [plugins]
 

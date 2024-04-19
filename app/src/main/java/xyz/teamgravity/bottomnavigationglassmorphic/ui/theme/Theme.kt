@@ -1,4 +1,4 @@
-package xyz.teamgravity.bottomnavigationanimated.ui.theme
+package xyz.teamgravity.bottomnavigationglassmorphic.ui.theme
 
 import android.app.Activity
 import android.os.Build

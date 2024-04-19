@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "xyz.teamgravity.bottomnavigationanimated"
+    namespace = "xyz.teamgravity.bottomnavigationglassmorphic"
     compileSdk = libs.versions.sdk.compile.get().toInt()
 
     defaultConfig {
-        applicationId = "xyz.teamgravity.bottomnavigationanimated"
+        applicationId = "xyz.teamgravity.bottomnavigationglassmorphic"
         minSdk = libs.versions.sdk.min.get().toInt()
         targetSdk = libs.versions.sdk.target.get().toInt()
         versionCode = 1
@@ -71,4 +71,10 @@ dependencies {
 
     // core
     implementation(libs.core)
+
+    // haze
+    implementation(libs.haze)
+
+    // coil
+    implementation(libs.coil)
 }
