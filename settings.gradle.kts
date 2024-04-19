@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BottomNavigationAnimated"
+rootProject.name = "BottomNavigationGlassmorphic"
 include(":app")
  
