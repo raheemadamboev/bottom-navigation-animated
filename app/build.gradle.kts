@@ -71,4 +71,7 @@ dependencies {
 
     // core
     implementation(libs.core)
+
+    // bottom navigation
+    implementation(libs.bottomnavigation)
 }
